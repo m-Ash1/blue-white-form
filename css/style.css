@@ -111,6 +111,9 @@ ul li {
   border-radius: 7px;
   transition: 0.3s;
 }
+ul li:last-child {
+  background-color: var(--buttons);
+}
 ul li:hover {
   background-color: var(--buttons);
   cursor: pointer;
